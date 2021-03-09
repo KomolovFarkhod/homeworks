@@ -1,0 +1,44 @@
+Homework 1 from tehnikum the first Homework
+a = int(input())
+b = int(input())
+c = int(input())
+
+if a > b > c:
+  print(b)
+if c > b > a:
+  print(b)
+
+The second exercise
+a = int(input())
+b = int(input())
+c = int(input())
+m = a
+
+if m < b:
+    m = b
+if m < c:
+    m = c
+    print(m)
+
+The third exercise
+import time
+
+a = input('Здравствуйте меня зовут Махмуд ака, укажите свой пол.')
+b = input()
+if b == ('Девушка').lower():
+  print('Я рад вас видеть #)')
+  time.sleep(1)
+else:
+  print('Я помогаю только девушкам.')
+c = input('Укажите свой возраст')
+d = input()
+if d >= '18':
+  print('Напишите два числа')
+  time.sleep(1)
+else:
+  print('Напишите мне когда вам исполнится 18 лет :)')
+e = int(input())
+f = int(input())
+g = e + f
+print(g)
+

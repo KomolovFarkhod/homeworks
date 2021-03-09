@@ -1,0 +1,82 @@
+Homework_2
+
+Exersice 1
+
+counter = 0
+n = 100
+summa = 0
+while counter != n:
+  counter += 1
+  summa += counter
+  print(counter, summa)
+
+
+Exersice 2
+
+for i in range(14):
+  print(i)
+
+for i in range(int(input())):
+  print(i)
+
+
+Exersice 3
+
+while True:
+  s = input('(+,-,*,/)')
+  if s == 0:
+    break
+  if s in ('+', '-', '*', '/'):
+    a = int(input())
+    b = int(input())
+  if s == '+':
+    print(a + b)
+  elif s == '-':
+    print(a - b)
+  elif s == '*':
+    print(a * b)
+  elif s == '/':
+    print(a / b)
+    if b != 0:
+      print('На ноль делить нельзя!')
+
+
+
+
+HOMEWORK_2
+
+Замена подстроки
+a = input()
+b = input()
+c = input()
+x = a.replace(b, c)
+print(x)
+
+Удаление из строки повторяющихся элементов
+
+def concatine(tup):
+    temp = ''
+    for i in tup:
+        temp+=i
+    return temp
+print("\nУдаление из строки повторяющихся символов\n")
+g = input("Введите стороку: ")
+h = []
+for i in g:
+    if i != ' ':
+        h.append(i)
+h = list(set(h))
+print(concatine(h))
+
+
+Самая длинная строка
+
+a = input()
+b = input()
+c = input
+if len(a)>len(b) and len(a)>len(c):
+  print(a)
+elif len(b)>len(a) and len(b)>len(c):
+  else:
+    print(c)
+

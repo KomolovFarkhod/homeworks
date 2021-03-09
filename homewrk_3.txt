@@ -1,0 +1,62 @@
+Homework_3
+
+Exersice 1
+
+counter = 0
+n = 100
+summa = 0
+while counter != n:
+  counter += 1
+  summa += counter
+  print(counter, summa)
+
+
+Exersice 2
+
+n = int(input())
+a = n*(n+1)/2
+counter = 0
+b = 0
+while counter != n:
+    counter += 1
+    b = b+counter
+print(b)
+
+
+Exersice 3
+
+Килограм асфальта:
+s = '1234567'
+print(s[::-1])
+
+while True:
+  s = input('(+,-,*,/)')
+  if s == 0:
+    break
+  if s in ('+', '-', '*', '/'):
+    a = int(input())
+    b = int(input())
+  if s == '+':
+    print(a + b)
+  elif s == '-':
+    print(a - b)
+  elif s == '*':
+    print(a * b)
+  elif s == '/':
+    print(a / b)
+    if b != 0:
+      print('На ноль делить нельзя!')
+
+Exersice 3_bot
+
+import random
+Biba = random.randint(1, 100)
+Bobi = int(input())
+
+while Bobi != Biba:
+    if Bobi < Biba:
+        print('Тепло')
+    else:
+        print('Холодно')
+
+    Bobi = int(input())
